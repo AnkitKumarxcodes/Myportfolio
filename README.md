@@ -6,7 +6,7 @@
 
 This is my personal developer portfolio website designed to showcase my projects, technical journey, skills, and experience in AI/ML, NLP, data analytics, and software development.
 
-View the [Live Portfolio](https://your-vercel-link.vercel.app).
+View the [Live Portfolio](myportfolio-orpin-tau.vercel.app).
 
 This portfolio highlights my work through project showcases, technical sections, and a clean interactive layout built for recruiters, collaborators, and learning opportunities.
 
