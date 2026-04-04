@@ -3,7 +3,7 @@
 Personal developer portfolio built using **React, TypeScript, and SCSS** to showcase my projects, technical skills, journey, and contact information.
 
 ## 🌐 Live Portfolio
-[Add your deployed portfolio link here]
+[src/assets/images/screenshot.png]
 
 ---
 
