@@ -21,11 +21,24 @@
   fieldset {
     background-color: white;
   }
-}
 
-label {
-  font-size: 1.2rem;
-  font-family: 'DomaineDispNar-Medium', sans-serif;
+  .MuiInputBase-root {
+    background-color: white;
+  }
+
+  .MuiInputBase-input {
+    color: black !important;
+  }
+
+  .MuiInputLabel-root {
+    color: #555 !important;
+    font-size: 1rem !important;
+    font-family: inherit !important;
+  }
+
+  .MuiFormHelperText-root {
+    color: #ffb3b3 !important;
+  }
 }
 
 .form-flex {
@@ -45,4 +58,10 @@ form {
 .body-form {
   width: 100% !important;
   margin-bottom: 15px !important;
+}
+
+@media screen and (max-width: 700px) {
+  .form-flex {
+    flex-direction: column;
+  }
 }
