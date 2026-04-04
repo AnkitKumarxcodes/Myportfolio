@@ -1,86 +1,148 @@
-# Developer Portfolio Template 🚀
+# Ankit Kumar Portfolio 🚀
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+Personal developer portfolio built using **React, TypeScript, and SCSS** to showcase my projects, technical skills, journey, and contact information.
 
-## What is this?
+## 🌐 Live Portfolio
+[Add your deployed portfolio link here]
 
-This simple portfolio template is designed to showcase your past projects, career history, skill sets, and more.
+---
 
-View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
+## 📌 About
 
-**This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use. Please don't forget to leave a ⭐ if you like this portfolio!
+This portfolio highlights my work in:
 
-![screenshot](./src/assets//images/screenshot.png)
+- **Machine Learning**
+- **Natural Language Processing**
+- **Applied AI Systems**
+- **Data Analytics**
+- **Software Development**
 
-## Features
+It includes featured projects, technical experience, project showcase cards, and a contact form for collaboration opportunities.
 
-✅ Open source (free to use, no attribution required)  
-✅ Responsive design & mobile-friendly  
-✅ Supports both dark and light modes  
-✅ Highly customizable multi-component layout  
-✅ Built with modern technologies (React, TypeScript, JavaScript, and SCSS)  
+---
 
-## Quick Setup
+## 🛠 Tech Stack
 
-1. Ensure you have [Node.js](https://nodejs.org/) installed. Check your installation by running:
+- **React**
+- **TypeScript**
+- **SCSS**
+- **Material UI**
+- **JavaScript**
+- **HTML/CSS**
 
-    ```bash
-    node -v
-    ```
+---
 
-2. In the project directory, install dependencies:
+## ✨ Features
 
-    ```bash
-    npm install
-    ```
+- Responsive portfolio website
+- Dark / Light mode support
+- Smooth section navigation
+- Featured project showcase
+- Journey / timeline section
+- Contact form integration
+- Clean and minimal UI
 
-3. Start the development server:
+---
 
-    ```bash
-    npm start
-    ```
+## 📂 Featured Projects
 
-4. Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
+### 🧠 Speech Emotion Recognition
+A machine learning project focused on recognizing emotions from speech signals using extracted audio features such as **MFCC, Mel Spectrogram, and Chroma**.  
+Compared multiple classical ML models and evaluated performance using confusion-matrix-based analysis.
 
-5. Customize the template by navigating to the `/src/components` directory. Modify texts, pictures, and other information as needed.
+### 🏅 OlympicX
+An interactive Olympic data analytics platform built with **Python, Pandas, Streamlit, and EDA**.  
+Used to explore medal trends, athlete participation, country comparisons, and historical Olympic insights.
 
-The page will reload if you make edits, and you will see any lint errors in the console.
+### 📧 Email Spam Classifier
+An end-to-end spam classification system using **TF-IDF and Logistic Regression** with both:
 
-If you are interested in creating a mockup image like the ones from the personal projects section, I recommend [Genmoo](https://gemoo.com/tools/browser-mockup-generator/). This website lets you generate sleek looking browser mockups for free.
+- **Streamlit Web App**
+- **FastAPI REST API**
 
-## Deployment
+Built with a focus on high precision and deployable ML workflow.
 
-You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/), [Render](https://render.com/), [Heroku](https://www.heroku.com/)) for deployment. One of the easiest ways to host this portfolio is using GitHub Pages. Follow the instructions below for a production deploy.
+### 🤖 HackBot AI
+A **RAG-based Discord assistant** designed for hackathon communities.  
+Built using **LLaMA 3.1 via Groq API, FAISS, sentence-transformers**, and modular retrieval workflows.
 
-1. **Set Up GitHub Repository**
+---
 
-    Create a new repository on GitHub for your portfolio app.
+## 🚀 Run Locally
 
-2. **Configure `package.json`**
+Clone the repository:
 
-    Edit the following properties in your `package.json` file:
+```bash
+git clone https://github.com/AnkitKumarxcodes/YOUR-REPO-NAME.git
 
-    ```json
-    {
-        "homepage": "https://yourusername.github.io/your-repo-name",
-        "scripts": {
-            "predeploy": "npm run build",
-            "deploy": "gh-pages -d build",
-            ...
-        }
-    }
-    ```
+Navigate into the folder:
 
-    Replace `yourusername` with your GitHub username and `your-repo-name` with the name of your GitHub repository.
+cd Myportfolio
 
-3. **Deploy to GitHub Pages**
+Install dependencies:
 
-    Run the following command to deploy your app:
+npm install
 
-    ```bash
-    npm run deploy
-    ```
+Start development server:
 
-4. **Access Your Deployed App**
+npm start
 
-    After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
+Then open:
+
+http://localhost:3000
+
+
+📬 Contact
+
+Open to:
+
+AI/ML internships
+Software engineering roles
+Hackathons
+Research collaborations
+
+📧 Email: ankitsingh17082003@gmail.com
+
+🔗 LinkedIn: [linkedin.com/in/ankit-kumar-33251528a/]
+💻 GitHub: [https://github.com/AnkitKumarxcodes]
+
+📄 License
+
+This project is open for personal inspiration and learning.
+
+
+---
+
+# IMPORTANT — update these 4 things after pasting
+
+Search and replace these placeholders:
+
+---
+
+## 1. Live Portfolio link
+Replace:
+
+```md id="84scxg"
+[Add your deployed portfolio link here]
+
+## 2. Repo clone link
+
+Replace:
+
+YOUR-REPO-NAME
+
+with your actual repo name.
+
+
+## 3. LinkedIn link
+
+Replace:
+
+[Add your LinkedIn link here]
+
+
+## 4. GitHub link
+
+Replace:
+
+[Add your GitHub profile link here]
