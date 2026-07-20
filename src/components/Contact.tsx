@@ -30,21 +30,25 @@ function Contact() {
       formData.append("email", email);
       formData.append("message", message);
       formData.append("subject", "New Portfolio Contact Message");
+    
+      try{
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          body: formData
+        });
 
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        body: formData
-      });
+        const result = await response.json();
 
-      const result = await response.json();
-
-      if (result.success) {
-        setSuccessMessage("Message sent successfully!");
-        setName('');
-        setEmail('');
-        setMessage('');
-      } else {
-        setSuccessMessage("Something went wrong. Please try again.");
+        if (result.success) {
+          setSuccessMessage("Message sent successfully!");
+          setName('');
+          setEmail('');
+          setMessage('');
+        } else {
+          setSuccessMessage("Something went wrong. Please try again.");
+        }
+      }catch (err) {
+        setSuccessMessage("Unable to send message. Please try again.");
       }
     }
   };
@@ -76,13 +80,15 @@ function Contact() {
                 InputLabelProps={{
                   style: { color: "#555" }
                 }}
-                InputProps={{
-                  style: {
-                    backgroundColor: "white",
-                    color: "black",
-                    height: "70px"
-                  }
+                sx={{
+                  "& .MuiOutlinedInput-root": {
+                    backgroundColor: "#fff",
+                  },
+                  "& .MuiOutlinedInput-input": {
+                    color: "#000",
+                  },
                 }}
+          
               />
               <TextField
               required
@@ -91,20 +97,25 @@ function Contact() {
               variant="outlined"
               fullWidth
               value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              onChange={(e) => {
+                console.log(e.target.value);
+                setEmail(e.target.value);
+              }}
               error={emailError}
               helperText={emailError ? "Please enter your email or phone number" : ""}
               InputLabelProps={{
                 style: { color: "#555" }
               }}
-              InputProps={{
-                style: {
-                  backgroundColor: "white",
-                  color: "black",
-                  height: "70px"
-                }
+              sx={{
+                "& .MuiOutlinedInput-root": {
+                  backgroundColor: "#fff",
+                },
+                "& .MuiOutlinedInput-input": {
+                  color: "#000",
+                },
               }}
             />
+
             </div>
 
             <TextField
@@ -136,7 +147,7 @@ function Contact() {
             </Button>
 
             {successMessage && (
-              <p style={{ marginTop: "20px", color: "white" }}>{successMessage}</p>
+              <p style={{ marginTop: "20px", color: "#4CAF50" }}>{successMessage}</p>
             )}
           </Box>
         </div>

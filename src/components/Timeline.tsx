@@ -25,7 +25,7 @@ function Timeline() {
             <h4 className="vertical-timeline-element-subtitle">Delhi Technological University</h4>
             <p>
               Pursuing B.Tech in Engineering Physics with a strong focus on machine learning,
-              intelligent systems, and applied software development. CGPA: 8.10
+              intelligent systems, and applied software development. CGPA: 8.165
             </p>
           </VerticalTimelineElement>
 

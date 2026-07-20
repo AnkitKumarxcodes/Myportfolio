@@ -1,8 +1,8 @@
 import React from "react";
-import ser from '../assets/images/ser.jpg';
-import hackbot from '../assets/images/hackbot.png';
-import olympicx from '../assets/images/olympicx.png';
-import spam from '../assets/images/spam.png';
+import ser from '../assets/images/ser_logo.png';
+import hackbot from '../assets/images/cortexrag_logo.png';
+import olympicx from '../assets/images/olympicx_logo.png';
+import spam from '../assets/images/metarag_logo.svg';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -10,6 +10,18 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
         <div className="projects-grid">
+            <div className="project">
+                <a href="https://github.com/AnkitKumarxcodes/metarag-sdk" target="_blank" rel="noreferrer">
+                    <img src={spam} className="zoom" alt="Metarag-sdk" width="100%"/>
+                </a>
+                <a href="https://github.com/AnkitKumarxcodes/metarag-sdk" target="_blank" rel="noreferrer">
+                    <h2>Metarag-sdk</h2>
+                </a>
+                <p>
+                    MetaRAG is an open-source engine that takes the guesswork out of RAG pipeline design. Instead of manually tuning chunking strategies, retrieval backends, and rerankers, MetaRAG benchmarks them against your own queries and routes each one to whichever configuration actually performs best on your data.
+                </p>
+            </div>
+            
             <div className="project">
                 <a href="https://github.com/AnkitKumarxcodes/Comparative-Study-of-Audio-Representations-for-Emotion-Recognition" target="_blank" rel="noreferrer">
                     <img src={ser} className="zoom" alt="Speech Emotion Recognition" width="100%"/>
@@ -23,16 +35,18 @@ function Project() {
             </div>
 
             <div className="project">
-                <a href="https://github.com/AnkitKumarxcodes/HackBot-AI" target="_blank" rel="noreferrer">
-                    <img src={hackbot} className="zoom" alt="HackBot AI" width="100%"/>
+                <a href="https://github.com/AnkitKumarxcodes/CortexRag" target="_blank" rel="noreferrer">
+                    <img src={hackbot} className="zoom" alt="CortexRag" width="100%"/>
                 </a>
-                <a href="https://github.com/AnkitKumarxcodes/HackBot-AI" target="_blank" rel="noreferrer">
-                    <h2>HackBot AI</h2>
+                <a href="https://github.com/AnkitKumarxcodes/CortexRag" target="_blank" rel="noreferrer">
+                    <h2>Cortex-Rag</h2>
                 </a>
                 <p>
-                    Developed a RAG-based Discord bot for hackathon communities using LLaMA 3.1 via Groq API, FAISS, and sentence-transformers. Added semantic retrieval, PDF/TXT ingestion, and modular async-safe workflow architecture.
+                    Cortex RAG is an intelligent cognitive routing framework that combines semantic similarity search, Retrieval-Augmented Generation (RAG), conversation memory, and graph-based workflow orchestration to generate context-aware, persona-consistent responses. The system features modular components for routing, retrieval, memory management, LLM generation, and prompt injection defense, providing a scalable architecture for building secure, multi-persona conversational AI applications.
                 </p>
             </div>
+
+            
 
             <div className="project">
                 <a href="https://olympicx.onrender.com" target="_blank" rel="noreferrer">
@@ -46,17 +60,7 @@ function Project() {
                 </p>
             </div>
 
-            <div className="project">
-                <a href="https://email-spam-classification-app.onrender.com" target="_blank" rel="noreferrer">
-                    <img src={spam} className="zoom" alt="Email Spam Classifier" width="100%"/>
-                </a>
-                <a href="https://email-spam-classification-app.onrender.com" target="_blank" rel="noreferrer">
-                    <h2>Email Spam Classifier</h2>
-                </a>
-                <p>
-                    Built an end-to-end email spam classification system using TF-IDF and Logistic Regression, deployed through both Streamlit and FastAPI. Compared multiple ML models and selected a precision-focused pipeline for reliable spam detection.
-                </p>
-            </div>
+
         </div>
     </div>
     );
