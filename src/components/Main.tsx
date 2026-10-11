@@ -1,7 +1,7 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import ankitdp from '../assets/images/ankitdp.jpg';
+import ankitdp from '../assets/images/ankitdp.png';
 import '../assets/styles/Main.scss';
 
 function Main() {
